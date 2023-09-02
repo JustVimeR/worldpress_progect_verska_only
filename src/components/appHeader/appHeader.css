@@ -176,15 +176,15 @@ h2.title {
 }
 
 .optimization .optimization_text {
+    width: 750px;
     margin-top: 25px;
-    margin-left: 631px;
+    margin-left: 629px;
     margin-right: 391px;
     color: #4A4A4A;
     font-family: Roboto;
     font-size: 17px;
     font-weight: 300;
     line-height: 27px;
-
     font-weight: 300;
 }
 
@@ -313,4 +313,34 @@ h2.title {
     font-family: Roboto;
     font-size: 23px;
     font-weight: 400;
+}
+
+.info {
+    display: block;
+    height: 169px;
+    background-color: #1A1A1A;
+    margin: 0 auto;
+    padding: 57px 0 69px 0;
+}
+
+.info .info_links{
+    color: #888;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px; 
+    text-decoration-line: underline;
+}
+
+.info .number{
+    display: block;
+    margin: 0 auto;
+    color: #888;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration-line: underline;
 }
