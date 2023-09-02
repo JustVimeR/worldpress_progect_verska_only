@@ -136,20 +136,20 @@ const AppHeader = () => {
             <section className="first">
                 <div className="container">
                     <img src={first} alt="1" className="first_img" />
-                    <div class="first_text">Перший вебінар відбудеться:</div>
-                    <h2 class="date">10 вересня о 20:00 по Києву</h2>
-                    <div class="first_subtitle">Встигніть записатися, кількість місць обмежена!</div>
+                    <div className="first_text">Перший вебінар відбудеться:</div>
+                    <h2 className="date">10 вересня о 20:00 по Києву</h2>
+                    <div className="first_subtitle">Встигніть записатися, кількість місць обмежена!</div>
                 </div>
             </section>
 
             <footer>
-                <div class="info">
-                    <div class="info_links">
-                        <a href="#" class="underlined">Служба підтримки</a>
+                <div className="info">
+                    <div className="info_links">
+                        <a href="#" classNme="underlined">Служба підтримки</a>
                         |
-                        <a href="#" class="underlined">Політика конфеденційності</a>
+                        <a href="#" className="underlined">Політика конфеденційності</a>
                     </div>
-                    Позвоеіть нам <a href="tel:+88005550121">+380-98-115-88-20</a>
+                     <a href="tel:+88005550121" className="number"> Перезвоніть нам +380-98-115-88-20</a>
                 </div>
             </footer>
         </>
