@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+.html {
+    font-family: Roboto;
+}
+
 .promo {
     height: 800px;
     background: url('../../img/main_bg.png') center center/cover no-repeat;
@@ -32,7 +38,7 @@ h1 {
 .title {
     color: #f9bf3b;
     font-size: 41px;
-    font-weight: 400;
+    font-weight: 900;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -45,7 +51,7 @@ h2.title {
 .simple .title_big {
     color: #ffffff;
     font-size: 80px;
-    font-weight: 400;
+    font-weight: 900;
     text-transform: uppercase;
     text-align: center;
     margin-top: 21px;
@@ -59,7 +65,6 @@ h2.title {
     font-weight: 300;
     line-height: 28px;
     text-align: center;
-
 }
 
 .promo .promo_text span {
@@ -323,17 +328,17 @@ h2.title {
     padding: 57px 0 69px 0;
 }
 
-.info .info_links{
+.info .info_links {
     color: #888;
     text-align: center;
     font-family: Roboto;
     font-size: 15px;
     font-weight: 300;
-    line-height: 21px; 
+    line-height: 21px;
     text-decoration-line: underline;
 }
 
-.info .number{
+.info .number {
     display: block;
     margin: 0 auto;
     color: #888;

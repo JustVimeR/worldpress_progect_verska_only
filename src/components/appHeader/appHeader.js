@@ -149,11 +149,7 @@ const AppHeader = () => {
                         |
                         <a href="#" className="underlined">Політика конфеденційності</a>
                     </div>
-<<<<<<< HEAD
-                    Перезвоніть нам <a href="tel:+88005550121">+380-98-115-88-20</a>
-=======
-                     <a href="tel:+88005550121" className="number"> Перезвоніть нам +380-98-115-88-20</a>
->>>>>>> 2ed39b33fc3dbfd76afdbcff28d530c8321a40bf
+                    <a href="tel:+88005550121" className="number"> Перезвоніть нам +380-98-115-88-20</a>
                 </div>
             </footer>
         </>
